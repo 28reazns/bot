@@ -1,6 +1,6 @@
 const { SlashCommandBuilder,GuildChannelManager } = require('discord.js');
 const axios = require('axios');
-const noblox = require("../../../noblox.js")
+const noblox = require("../../noblox")
 const rbxtoken = process.env.rbxtoken;
 const { EmbedBuilder } = require('discord.js');
 
