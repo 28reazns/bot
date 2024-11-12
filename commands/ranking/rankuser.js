@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder, PermissionsBitField } = require('discord.js');
 const axios = require('axios');
-const { guildId } = require('../../config.json');
+const guildId = process.env.guildId
 const noblox = require("../../noblox.js")
 const rbxtoken = process.env.rbxtoken
 
