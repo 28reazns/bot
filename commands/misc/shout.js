@@ -1,6 +1,5 @@
 const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, Locale, } = require('discord.js');
-const noblox = require("../../noblox.js")
-const { guildId, rbxcookie, rbxtoken } = require('../../config.json');
+const noblox = require("../../../noblox.js")
 const { EmbedBuilder, PermissionsBitField } = require('discord.js');
 
 module.exports = {
