@@ -2,7 +2,7 @@ const noblox = require('noblox.js')
 const axios = require('axios');
 const rbxcookie = process.env.rbxcookie;
 const bloxtoken = process.env.bloxtoken;
-const {guildId} = require('./BOT/config.json')
+const guildId = process.env.guildId;
 const groupId = 34735752
 async function startApp () {
     // You MUST call setCookie() before using any authenticated methods [marked by 🔐]
